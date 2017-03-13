@@ -1,5 +1,5 @@
 """
-Commands and operators used by NAD.
+Commands and operators used by Neopro Borrego+ and other devices.
 
 CMDS[domain][function]
 """
@@ -31,10 +31,7 @@ CMDS = {
                  'supported_inputs': [0,1,2,3,4,5,6,7,8],
                  'supported_outputs': [0,1,2,3,4,5,6,7,8]
                  },
-            # 'L':
-            #     {'cmd': 'Switch.Volume_Level',
-            #      'supported_operators': ['+', '-']
-            #      },
+
             # 'B':
             #     {'cmd': 'Switch.Bass_Level',
             #      'supported_operators': ['+', '-']

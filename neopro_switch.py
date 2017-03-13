@@ -64,17 +64,6 @@ class NeoproSwitch(object):
         """Execute Main.Mute."""
         return self.switch_command('switch', 'L', input, output, time)
 
-    # def switch_volume(self, input, output, time):
-    #     """Execute Main.Mute."""
-    #     return self.exec_command('switch', 'C', input, output, time)
-
-    # def switch_bass_level(self, operator, time):
-    #     """Execute Main.Mute."""
-    #     return self.exec_command('switch', 'B', input, output, time)
-
-    # def switch_treble(self, operator, time):
-    #     """Execute Main.Mute."""
-    #     return self.exec_command('switch', 'T',input, output, time)
 
     def volume_command(self, domain, function, output):
         if output in CMDS[domain][function]['supported_outputs']:
@@ -112,6 +101,16 @@ class NeoproSwitch(object):
     def audio_volume_state(self):
         cmd = '[?xL]'
         return self.ex_com(cmd)
+
+
+        # def switch_bass_level(self, operator, time):
+        #     """Execute Main.Mute."""
+        #     return self.exec_command('switch', 'B', input, output, time)
+
+        # def switch_treble(self, operator, time):
+        #     """Execute Main.Mute."""
+        #     return self.exec_command('switch', 'T',input, output, time)
+
 
 
 

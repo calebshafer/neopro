@@ -4,7 +4,7 @@ If it works should work with other neopro devices
 orignal software that was modified by joobert
 https://github.com/joopert/nad_receiver
 
-UNTESTED. As of know
+UNTESTED. As of now
 
 NeoproSwitch.FUNCTION()
 
