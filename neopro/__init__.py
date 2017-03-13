@@ -7,8 +7,9 @@ former name
 "__init__.py"
 """
 
-from neopro_commands import CMDS
 import serial  # pylint: disable=import-error
+
+from neopro.neopro_commands import CMDS
 
 DEFAULT_TIMEOUT = 1
 DEFAULT_WRITE_TIMEOUT = 1

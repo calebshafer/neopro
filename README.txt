@@ -20,6 +20,6 @@ volume_partial_mute(output):
 volume_up(output):
 volume_down(output):
 pwr_on():
-def pwr_off():
-def audio_switch_state(self):
-def audio_volume_state(self):
+pwr_off():
+audio_switch_state(self):
+audio_volume_state(self):
