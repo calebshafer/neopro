@@ -1,0 +1,12 @@
+import setuptools
+
+setuptools.setup(name='neopro',
+                 version='0.0.1',
+                 description='Library to interface with Neopro borrego through the RS232',
+                 url='',
+                 author='dogs',
+                 author_email='',
+                 license='MIT',
+                 packages=['neopro'],
+                 install_requires=['pyserial==3.2.1'],
+                 zip_safe=True)
